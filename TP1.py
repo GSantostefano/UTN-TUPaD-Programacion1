@@ -3,16 +3,16 @@
 
 print("=== TRABAJO PRÁCTICO 1 - PROGRAMACION ===\n")
 
-# Actividad 1: Imprimir "Hola Mundo!"
+# Actividad 1:
 print("1) Hola Mundo!")
 print("Hola Mundo!\n")
 
-# Actividad 2: Saludo personalizado
+# Actividad 2:
 print("2) Saludo personalizado")
 nombre = input("Por favor, ingresa tu nombre: ")
 print(f"Hola {nombre}!\n")
 
-# Actividad 3: Información personal
+# Actividad 3:
 print("3) Información personal")
 nombre = input("Ingresa tu nombre: ")
 apellido = input("Ingresa tu apellido: ")
@@ -20,7 +20,7 @@ edad = input("Ingresa tu edad: ")
 lugar_residencia = input("Ingresa tu lugar de residencia: ")
 print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {lugar_residencia}.\n")
 
-# Actividad 4: Área y perímetro de un círculo
+# Actividad 4:
 print("4) Cálculo de área y perímetro de un círculo")
 import math
 radio = float(input("Ingresa el radio del círculo: "))
@@ -30,23 +30,22 @@ print(f"Para un círculo de radio {radio}:")
 print(f"Área: {area:.2f}")
 print(f"Perímetro: {perimetro:.2f}\n")
 
-# Actividad 5: Conversión de segundos a horas
+# Actividad 5:
 print("5) Conversión de segundos a horas")
 segundos = float(input("Ingresa la cantidad de segundos: "))
 horas = segundos / 3600
 print(f"{segundos} segundos equivalen a {horas:.4f} horas\n")
 
-# Actividad 6: Tabla de multiplicar
+# Actividad 6:
 print("6) Tabla de multiplicar")
 numero = int(input("Ingresa un número para ver su tabla de multiplicar: "))
 print(f"Tabla de multiplicar del {numero}:")
-print("-----------------------------")
 for i in range(1, 11):
     resultado = numero * i
     print(f"{numero} × {i} = {resultado}")
 print()
 
-# Actividad 7: Operaciones con dos números
+# Actividad 7:
 print("7) Operaciones con dos números enteros")
 print("Ingresa dos números enteros distintos de cero:")
 num1 = int(input("Primer número: "))
@@ -67,21 +66,20 @@ else:
     print(f"División: {num1} ÷ {num2} = {division:.2f}")
 print()
 
-# Actividad 8: Índice de masa corporal
+# Actividad 8:
 print("8) Cálculo del Índice de Masa Corporal")
 altura = float(input("Ingresa tu altura en metros: "))
 peso = float(input("Ingresa tu peso en kilogramos: "))
 imc = peso / (altura ** 2)
 print(f"Tu Índice de Masa Corporal es: {imc:.2f}\n")
 
-# Actividad 9: Conversión de temperatura
+# Actividad 9:
 print("9) Conversor de temperatura: Celsius a Fahrenheit")
-print("==============================================")
 celsius = float(input("Ingresa la temperatura en grados Celsius: "))
 fahrenheit = (9/5) * celsius + 32
 print(f"{celsius}°C equivalen a {fahrenheit:.2f}°F\n")
 
-# Actividad 10: Promedio de tres números
+# Actividad 10:
 print("10) Cálculo del promedio de tres números")
 print("Cálculo detallado del promedio")
 num1 = float(input("Primer número: "))
